@@ -1,16 +1,13 @@
 package ar.edu.utn.dds.tp0;
 
-public class Servicio extends Producto {
+public class Servicio extends Item {
 
 
-	public boolean isArticulo() {
+	public boolean generaCertificado() {
 		return false;
 	}
 
-	public boolean isServicio() {
-		return true;
-	}
-
+	
 	
 	
 }

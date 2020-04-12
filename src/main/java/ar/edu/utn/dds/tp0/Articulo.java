@@ -1,20 +1,18 @@
 package ar.edu.utn.dds.tp0;
 
-public class Articulo extends Producto {
+public class Articulo extends Item {
 
 
-	public Articulo(double valor) {
-		this.setValor(valor);
+	public Articulo(double precio) {
+		this.setPrecio(precio);
 	}
 
-	public boolean isArticulo() {
+	public boolean generaCertificado() {
 		return true;
 	}
 
-	public boolean isServicio() {
-		return false;
-	}
-
+	
+    
 	
 	
 	
